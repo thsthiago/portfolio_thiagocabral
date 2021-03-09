@@ -1,0 +1,112 @@
+.container {
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  padding: 0 2%;
+  position: relative;
+}
+
+.sobreBackground {
+  width: 50%;
+  height: 75%;
+  max-height: 500px;
+  background: #D6D5EF;
+  position: absolute;
+  left: 0px;
+  top: 20%;
+  border-radius: 0 1000px 1000px 0;
+}
+
+.sobreBackground div {
+  width: 90%;
+  height: 80%;
+  background: var(--color-gradient-barra);
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 0 1000px 1000px 0;
+}
+
+.sobreBackground div img{
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 100%;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 2;
+}
+
+.descricao {
+  width: 40%;
+  position: absolute;
+  top: 130px;
+}
+
+.descricao p{
+  margin-top: 10px;
+  font-size: clamp(16px, 2vw, 24px);
+  font-weight: 300;
+}
+
+.descricao p strong {
+  color: var(--title);
+  font-weight: 500;
+}
+
+@media(max-width: 600px) {
+  .container {
+    width: 100%;
+    height: 850px;
+    margin: 0 auto;
+    padding: 0 2%;
+    position: relative;
+  }
+  
+  .sobreBackground {
+    left: 0%;
+    top: 15%;
+    width: 90%;
+    height: 40%;
+  }
+  
+  .sobreBackground div {
+    width: 90%;
+    height: 80%;
+    left: 0px;
+    top: 50%;
+  }
+
+  .descricao {
+    width: 75%;
+    height: 200px;
+    position: absolute;
+    top:initial;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media(max-width: 500px) {
+  .descricao {
+    width: 80%;
+  }
+}
+
+@media(max-width: 360px) {
+  .descricao {
+    width: 80%;
+  }
+}

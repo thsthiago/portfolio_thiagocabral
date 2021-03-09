@@ -1,0 +1,35 @@
+:root {
+  --color-button-gradient: linear-gradient(90deg, #9800F9 0%, #5500C0 100%);;
+  --color-gradient-barra: linear-gradient(90deg, #9800F9 -4.15%, #302CAF 109.79%);
+  --color-barra: #CAC8F6;
+  --color-barra-dark: linear-gradient(90deg, #9800F9 -4.15%, #302CAF 109.79%);;
+  --text: #2F2D2E;
+  --white: #F2F2F2;
+  --title: #5F58CA;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1, p, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2,h3, span {
+  font-family: 'Roboto Mono', monospace;
+}
+
+html, 
+body,
+#__next{
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  display: block
+}

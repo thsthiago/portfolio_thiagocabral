@@ -1,0 +1,46 @@
+.container {
+  margin-top: 50px;
+  width: 100%;
+  background: #5500C0;
+  position: relative;
+}
+
+.container h2{
+  font-size: clamp(30px,3.5vw, 40px);
+  color: var(--white);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 500;
+  margin: 30px auto;
+}
+
+.container h2:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  margin-top: 5px;
+  width: 40px;
+  height: 4px;
+  border-radius: 2px;;
+  background: var(--white);
+}
+
+.box {
+  width: 100%;
+  background: url('/waves.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 160px 0px;
+}
+
+.projetos {
+  width: 100%;
+  max-width: 1080px;
+  padding: 0 2%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

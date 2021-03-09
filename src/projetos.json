@@ -1,0 +1,63 @@
+[
+  {
+    "titulo": "Pomodoro.Dev",
+    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit odio, viverra in enim et, volutpat cursus dui. Aliquam quis erat faucibus dui blandit molestie et vitae metus. Cras fringilla consectetur mollis.",
+    "icons": ["/icons/nextjs.svg","/icons/reactjs.svg"],
+    "tecnologias": ["Next JS", "React JS"],
+    "images": [
+      "/projetos/projeto 1/img1.svg",
+      "/projetos/projeto 1/img2.svg",
+      "/projetos/projeto 1/img3.svg"
+    ],
+    "links": [
+      "https://github.com/ths/pomodoro.dev",
+      "https://pomodorodev.vercel.app"
+    ]
+  },
+  {
+    "titulo": "Site wdc",
+    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit odio, viverra in enim et, volutpat cursus dui. Aliquam quis erat faucibus dui blandit molestie et vitae metus. Cras fringilla consectetur mollis.",
+    "icons": ["/icons/html.svg","/icons/css.svg","/icons/javascript.svg"],
+    "tecnologias": ["Html", "Css", "JavaScript"],
+    "images": [
+      "/projetos/projeto 2/img1.svg",
+      "/projetos/projeto 2/img2.svg",
+      "/projetos/projeto 2/img3.svg",
+      "/projetos/projeto 2/img4.svg"
+    ],
+    "links": [
+      "https://github.com/thsthiago/wdc",
+      "https://pomodorodev.vercel.app"
+    ]
+  },
+  {
+    "titulo": "Viaja Tour",
+    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit odio, viverra in enim et, volutpat cursus dui. Aliquam quis erat faucibus dui blandit molestie et vitae metus. Cras fringilla consectetur mollis.",
+    "icons": ["/icons/html.svg","/icons/css.svg","/icons/javascript.svg"],
+    "tecnologias": ["Html", "Css", "JavaScript"],
+    "images": [
+      "/projetos/projeto 3/img1.svg",
+      "/projetos/projeto 3/img2.svg",
+      "/projetos/projeto 3/img3.svg"
+    ],
+    "links": [
+      "https://github.com/thsthiago/Projeto_ViajaTour",
+      "https://pomodorodev.vercel.app"
+    ]
+  },
+  {
+    "titulo": "Cartour",
+    "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit odio, viverra in enim et, volutpat cursus dui. Aliquam quis erat faucibus dui blandit molestie et vitae metus. Cras fringilla consectetur mollis.",
+    "icons": ["/icons/html.svg","/icons/css.svg","/icons/javascript.svg","/icons/nextjs.svg","/icons/reactjs.svg"],
+    "tecnologias": ["Html", "Css", "JavaScript","PHP","MySql"],
+    "images": [
+      "/projetos/projeto 4/img1.svg",
+      "/projetos/projeto 4/img2.svg",
+      "/projetos/projeto 4/img3.svg"
+    ],
+    "links": [
+      "https://github.com/thsthiago/cartour",
+      "https://pomodorodev.vercel.app"
+    ]
+  }
+]

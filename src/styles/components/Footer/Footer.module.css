@@ -1,0 +1,13 @@
+.container {
+  background: #5500C0;
+  height: 60px;
+}
+
+.container strong {
+  font-family: 'Roboto Mono', monospace;
+  font-size: clamp(13px, 2vw, 17px);
+  color: var(--white);
+  line-height: 60px;
+  text-align: center;
+  display: block;
+}

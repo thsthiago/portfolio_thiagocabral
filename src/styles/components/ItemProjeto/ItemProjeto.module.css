@@ -1,0 +1,76 @@
+.container {
+  width: 260px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 2%;
+  margin-bottom: 90px;
+  background: var(--white);
+}
+
+.container img {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+
+.box h3{
+  margin: 10px 0px;
+  text-align: center;
+}
+
+
+.box div {
+  position: relative;
+  width: 140px;
+  height: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box div button {
+  border: none;
+  background: var(--color-button-gradient);
+  color: var(--white);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.span1,
+.span2 {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  background: #6C63FF;
+}
+
+.span1{
+  border-radius: 0px 0px 5px 0px;
+  right: -4px;
+  bottom: -4px;
+  transition: bottom .4s, right .4s;
+}
+
+.span2{
+  border-radius: 5px 0px 0px 0px;
+  left: -4px;
+  top: -4px;
+  transition: top .4s, left .4s;
+}
+
+.box div:hover .span1 {
+  right: -6px;
+  bottom: -6px;
+}
+
+.box div:hover .span2 {
+  left: -6px;
+  top: -6px;
+}
