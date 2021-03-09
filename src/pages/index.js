@@ -24,9 +24,9 @@ export default function Home() {
       <Projetos />
       <Contatos />
       <Footer />
-      <span onClick={() => scroll.scrollToTop()} className={styles.top}>
+      <button onClick={() => scroll.scrollToTop()} className={styles.top}>
         <FontAwesomeIcon icon={faArrowUp} />
-      </span>
+      </button>
     </div>
   )
 }

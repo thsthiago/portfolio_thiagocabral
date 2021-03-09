@@ -10,9 +10,9 @@ export function Projetos() {
       <div className={styles.box}>
         <div className={styles.projetos}>
           <ItemProjeto title="Pomodoro.Dev" chave="0" img="/projetos/projeto 1/img1.svg"/>
-          <ItemProjeto title="Site wdc" chave="1" img="/projetos/projeto 2/img1.svg" />
-          <ItemProjeto title="Viaja Tour" chave="2" img="/projetos/projeto 3/img1.svg" />
-          <ItemProjeto title="Cartour" chave="3" img="/projetos/projeto 4/img2.svg" />
+          <ItemProjeto title="Site wdc" chave="1" img="/projetos/projeto 2/imgprincipal.svg" />
+          <ItemProjeto title="Viaja Tour" chave="2" img="/projetos/projeto 3/imgprincipal.svg" />
+          <ItemProjeto title="Cartour" chave="3" img="/projetos/projeto 4/imgprincipal.svg" />
         </div>
       </div>
     </div>

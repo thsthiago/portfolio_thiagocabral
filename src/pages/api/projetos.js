@@ -11,6 +11,7 @@ export default function handler(req, res) {
           icons: ["/icons/nextjs.svg","/icons/reactjs.svg"],
           tecnologias: ["Next JS", "React JS"],
           images: [
+            "/projetos/projeto 1/img4.gif",
             "/projetos/projeto 1/img1.svg",
             "/projetos/projeto 1/img2.svg",
             "/projetos/projeto 1/img3.svg"
