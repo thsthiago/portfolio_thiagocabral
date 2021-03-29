@@ -9,7 +9,7 @@ export default function SectionInicial() {
       <div className={styles.container}>
         <div className={styles.box}>
           <h1>Thiago Cabral</h1>
-          <h3>Desenvolvedor Front-end</h3>
+          <h3>Desenvolvedor Web</h3>
           <div className={styles.containerIcons}>
             <a className={styles.icon} target="_blank" href="https://github.com/thsthiago">
               <FontAwesomeIcon icon={faGithub} />

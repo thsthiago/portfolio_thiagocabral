@@ -15,8 +15,8 @@ class MyDocument extends Document {
           <meta name="author" content="Thiago Cabral" /> 
           <meta name="keywords" content="Portfólio, Programação" /> 
           <link rel="icon" href="/favicon.png" sizes="16x16 32x32" type="image/png" />
-          <meta name="description" content="Thiago Cabral | Desenvolvedor Front-end" />
-          <meta property='og:title' content='Thiago Cabral | Desenvolvedor Front-end' />
+          <meta name="description" content="Thiago Cabral | Desenvolvedor Web" />
+          <meta property='og:title' content='Thiago Cabral | Desenvolvedor Web' />
           <meta property='og:image' content='https://raw.githubusercontent.com/thsthiago/portfolio_thiagocabral/f8a42e99ba39e2e1f7a805d89339eb8d63a57a7f/public/socialImage.svg' />
         </Head>
         <body>

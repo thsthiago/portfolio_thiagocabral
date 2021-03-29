@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Thiago Cabral | Desenvolvedor Front-end</title>
+        <title>Thiago Cabral | Desenvolvedor Web</title>
       </Head>
       <Header />
       <SectionInicial />

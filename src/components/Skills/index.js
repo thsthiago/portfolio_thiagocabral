@@ -8,6 +8,13 @@ export function Skills() {
       <Title>Skills</Title>
       <div className={styles.box}>
         <ItemSkill 
+          skill="/icons/node.svg" 
+          porcetagem="30%"
+          status="30%"
+          title="Node JS | Estudando"s
+        />
+        
+        <ItemSkill 
           skill="/icons/nextjs.svg" 
           porcetagem="30%"
           status="30%"
@@ -16,29 +23,29 @@ export function Skills() {
 
         <ItemSkill 
           skill="/icons/reactjs.svg" 
-          porcetagem="30%"
-          status="30%"
+          porcetagem="50%"
+          status="50%"
           title="React JS | Estudando"
         />
 
         <ItemSkill 
           skill="/icons/html.svg" 
-          porcetagem="80%"
-          status="80%"
+          porcetagem="85%"
+          status="85%"
           title="HTML"
         />
 
         <ItemSkill 
           skill="/icons/javascript.svg" 
-          porcetagem="70%"
-          status="70%"
+          porcetagem="80%"
+          status="80%"
           title="Javascript"
         />
 
         <ItemSkill 
           skill="/icons/css.svg" 
-          porcetagem="80%"
-          status="80%"
+          porcetagem="85%"
+          status="85%"
           title="CSS"
         />
 

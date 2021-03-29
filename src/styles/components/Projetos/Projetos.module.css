@@ -1,12 +1,12 @@
 .container {
   margin-top: 50px;
   width: 100%;
-  background: #5500C0;
+  background: #5500c0;
   position: relative;
 }
 
-.container h2{
-  font-size: clamp(30px,3.5vw, 40px);
+.container h2 {
+  font-size: clamp(30px, 3.5vw, 40px);
   color: var(--white);
   position: absolute;
   left: 50%;
@@ -23,15 +23,12 @@
   margin-top: 5px;
   width: 40px;
   height: 4px;
-  border-radius: 2px;;
+  border-radius: 2px;
   background: var(--white);
 }
 
 .box {
   width: 100%;
-  background: url('/waves.png') no-repeat;
-  background-size: cover;
-  background-position: center;
   padding: 160px 0px;
 }
 

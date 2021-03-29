@@ -11,14 +11,14 @@ export function Sobre()  {
       <div className={styles.box}>
         <div className={styles.descricao}>
           <p>
-            Desenvolvedor Web Front-end, apaixonado por <strong>tecnologia</strong>, 
+            Desenvolvedor Web, apaixonado por <strong>tecnologia</strong>, 
             <strong> café</strong>, <strong>games</strong> e muita <strong>música</strong>.
             <br />
             <br />
             Cursando <strong>Análise e Desenvolvimento de Sistemas</strong> pela Universidade Cidade de São Paulo.
             <br />
             <br />
-            Em busca de uma oportunidade de <strong>estágio como Desenvolvedor Front-end</strong>.
+            Em busca de uma oportunidade de <strong>estágio como Desenvolvedor Web</strong>.
           </p>
         </div>
       </div>
