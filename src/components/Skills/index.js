@@ -11,7 +11,7 @@ export function Skills() {
           skill="/icons/node.svg" 
           porcetagem="30%"
           status="30%"
-          title="Node JS | Estudando"s
+          title="Node JS | Estudando"
         />
         
         <ItemSkill 
@@ -26,6 +26,13 @@ export function Skills() {
           porcetagem="50%"
           status="50%"
           title="React JS | Estudando"
+        />
+
+        <ItemSkill 
+          skill="/icons/typescript.svg" 
+          porcetagem="50%"
+          status="50%"
+          title="TypeScript | Estudando"
         />
 
         <ItemSkill 
