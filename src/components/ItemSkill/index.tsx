@@ -1,6 +1,6 @@
 import styles from '../../styles/components/ItemSkill/ItemSkill.module.css'
 
-export function ItemSkill({...dist}) {
+export function ItemSkill({ ...dist }) {
   return (
     <div className={styles.container}>
       <div className={styles.skill}>
